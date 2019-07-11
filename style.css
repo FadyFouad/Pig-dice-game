@@ -6,7 +6,7 @@
     top: 520px;
     color: #555;
     font-size: 18px;
-    font-family: 'Lato';
+    font-family: 'Lato', serif;
     text-align: center;
     padding: 10px;
     width: 160px;
@@ -32,7 +32,7 @@ body {
     background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
     background-size: cover;
     background-position: center;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-weight: 300;
     position: relative;
     height: 100vh;
@@ -45,7 +45,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
     overflow: hidden;
 }
 
@@ -114,7 +114,7 @@ button {
     color: #555;
     background: none;
     border: none;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
@@ -148,7 +148,7 @@ i {
     top: 178px;
     transform: translateX(-50%);
     height: 100px;
-    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.10);
 }
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
